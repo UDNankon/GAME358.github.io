@@ -1,0 +1,52 @@
+/* assets/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header nav {
+    background: #333;
+    padding: 1em;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin-right: 1em;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  h1, h2 {
+    margin-bottom: 0.5em;
+  }
+
+  img {
+    /*display: block;*/
+    width: 100%;
+    height: auto;
+  }
+
+  video {
+    /*display: block;   /* 去掉默认 inline 间隙，随意 */
+    width: 100%;      /* 铺满父容器宽度 */
+    height: auto;     /* 等比缩放高度 */
+  }
+
+  
+  footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+  }
+  
